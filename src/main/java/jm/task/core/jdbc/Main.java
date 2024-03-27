@@ -24,8 +24,8 @@ public class Main {
         userService.getAllUsers();
         userService.cleanUsersTable();
         userService.dropUsersTable();
-        Util.closeConnection();
-//        Util.closeSessionFactory();
+//        Util.closeConnection();
+        Util.closeSessionFactory();
 
     }
 }
